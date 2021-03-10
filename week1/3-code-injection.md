@@ -21,7 +21,7 @@ int main(){
     execv(name[0], name, NULL);
 }
 ```
-This translate to the following assembly
+This translates to the following assembly
 ```assembly
 xorl %eax, %eax
 pushl %eax
