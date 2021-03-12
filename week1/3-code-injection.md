@@ -1,7 +1,7 @@
 # Code Injection
 There are two challenges for code injection:
-    1. Load my own code into memory.
-    2. Somehow get %eip to point at it.
+1. Load my own code into memory.
+2. Somehow get %eip to point at it.
 
 ## Load code into memory
 * It must be the machine code instructions (i.e., already compiled and ready to run)
