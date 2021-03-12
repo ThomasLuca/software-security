@@ -39,10 +39,10 @@ We can manipulate the instruction pointer to point at our code by overriding the
 <br>
 
 __Now how do we know to which address we want the instruction pointer to go?__
+
 There are a few different techniques:
-    * Trial and error. Keep trying until something works -> This possible won't work due to the large address range
-    * Use a __nop sled__ (a single-byte instruction which simply moves to the next instruction).
-    Injecting a bunch of nop sleds in front of the malicious code will eventually bring the pointer to the code if the pointer happens to land on a nop sled.
+* Trial and error. Keep trying until something works -> This possible won't work due to the large address range
+* Use a __nop sled__ (a single-byte instruction which simply moves to the next instruction). Injecting a bunch of nop sleds in front of the malicious code will eventually bring the pointer to the code if the pointer happens to land on a nop sled.
 
 ```
 ________________________________________________________________________________
