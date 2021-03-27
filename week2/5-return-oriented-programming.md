@@ -32,4 +32,4 @@ There are enough gadgets to make a touring complete machine. Finding them can be
 
 ---
 ## Where does it end?
-Best way to end cat and mouse is to have memory safety. This is easiest to achieve by using a memory-safe program.
+Best way to end cat and mouse game is to have memory safety. This is easiest achieved by using a memory-safe programming language.
