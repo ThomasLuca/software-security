@@ -5,7 +5,7 @@
 example:  
 
 * Client is logged in to the bank
-* Client is server the internet and comes across a malicious site (attacker.com)
+* Client is searching the internet and comes across a malicious site (attacker.com)
 * attacker.com returns a page which contains a reference to the url of the bank (`<img src="http://bank.com/transfer.cgi?amt=9999&to=atacker">`)
 * Browser automatically visits url to obtain what it believes to be an image.
 * Client will thus send a request to bank.com
