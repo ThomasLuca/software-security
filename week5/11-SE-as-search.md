@@ -52,3 +52,10 @@ Hybrid of BFS and coverage-guided search.
 ### Combined search
 
 Run multiple searches at the same time. (alternate between them). Avoid one-size-fits-all solution
+
+## Popular SMT solvers
+
+* Z3
+* Yices
+* STP
+* CVC3

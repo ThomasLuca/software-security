@@ -1,6 +1,6 @@
 # Symbolic Execution System
 
-## SAGE
+## SAGE [Microsoft]
 
 * SE system developed by Microsoft based on DART
 * Uses generational search
@@ -19,7 +19,7 @@
 * Uses symbolic and concolic strategies
 * Automatically generates exploits when bug is found
 
-## Mergepoint
+## Mergepoint [Linux]
 
 * Extends Mayhem with veritesting technique
 * Symbolic execution + static analysis
@@ -27,4 +27,4 @@
 * Better balance between solver and executor
   * __Faster to find bugs__
   * __Covers more of the program__ in the same time
-* Found more than 12000 bugs in the linux kernel.
+* Found more than 12000 bugs in a linux distro.
