@@ -13,9 +13,11 @@ On a server, long-lived data (login credentials/ content) lives in a database. T
 * To achieve ACID we use __Database Management Systems__ (DBMes)
 
 ## SQL (Standard Query Language)
+
 Data is stored in tables. Server side code will interact with the database using SQL. This server side code is often written in a language like (PHP/ nodejs).
 
 ## SQL injection
+
 User input that needs to be stored in a database is send to the server using queries. If the user provides SQL code inside the input field, than there is a possibility that the query will interpret the user input as valid SQL code. This results in a SQL injections.
 
 eg:
